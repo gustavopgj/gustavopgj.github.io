@@ -54,7 +54,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:1060px;
   margin:0 auto;
 }
 
@@ -168,10 +168,21 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:700px;
   float:right;
   padding-bottom:50px;
 }
+
+
+section2 {
+   width:1060px;
+   float:right;
+   padding-bottom:50px;
+  }
+  html {
+    scroll-behavior: smooth;
+   }
+
 
 small {
   font-size:11px;
@@ -191,14 +202,14 @@ footer {
   bottom:50px;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1160px) {
 
   div.wrapper {
     width:auto;
     margin:0;
   }
 
-  header, section, footer {
+  header, section, footer, section2 {
     float:none;
     position:static;
     width:auto;
@@ -214,6 +225,16 @@ footer {
     padding:20px 0;
     margin:0 0 20px;
   }
+
+
+  section2 {
+    border:1px solid #e5e5e5;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+    }
+
+
 
   header a small {
     display:inline;
@@ -271,13 +292,3 @@ pre {
     white-space: pre-wrap;
     background: #F1F1F1;
 }
-
-
-
-
-.posts {
-    text-align: justify;
-    clear:all;
-    width:100%;
-
- }
