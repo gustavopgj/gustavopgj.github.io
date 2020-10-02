@@ -2,8 +2,8 @@
 
 body {
   padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
+  font:14px/1.5 Palatino, 'Palatino Linotype', serif;
+  color:#818181  ;
   font-weight:300;
   text-align:justify;
 
@@ -23,7 +23,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:24px;
+  font-size:18px;
 }
 
 h2 {
@@ -33,11 +33,15 @@ h2 {
 h3, h4, h5, h6 {
   color:#393939;
   text-align:justify;
-
 }
 
+h4 {
+  color:#6807A7;
+  text-align:right;
+ }
+
 a {
-  color:#0f3460;
+  color:#990000;
   font-weight:400;
   text-decoration:none;
 }
@@ -102,7 +106,7 @@ img {
 header {
   width:270px;
   float:left;
-  position:fixed;
+  position: inherit;
 }
 
 header ul {
@@ -269,30 +273,11 @@ pre {
 }
 
 
-nav {
-  float: right;
-  margin-top: 23px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
-}
-@media screen and (max-width: 640px) {
-  nav {
-    float: none;
-    margin-top: 9px;
-    display: block;
-    font-size: 16px;
-  }
-}
-nav a {
-  margin-left: 20px;
-  color: #333;
-  text-align: right;
-  font-weight: 300;
-  letter-spacing: 1px;
-}
-@media screen and (max-width: 640px) {
-  nav a {
-    margin: 0 10px;
-    color: #4183C4;
-  }
-}
+
+
+.posts {
+    text-align: justify;
+    clear:all;
+    width:100%;
+
+ }
